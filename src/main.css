@@ -1,0 +1,75 @@
+.empty{
+  height: 15px;
+}
+
+.container-fluid{
+  background-color: #021326;
+}
+
+.fotomain{
+  display: block;
+  margin: 0 auto;
+  height: 55%;
+  width: 75%;
+}
+
+#buttonnav{
+  position: fixed;
+  bottom: 3em;
+  display: block;
+  left: 40%;
+  margin: 0 auto;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  border-color: #287bf7;
+  background-color: #021326;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  margin: 2%;
+}
+
+.col-sm#option{
+  background-color: #021326;
+}
+
+.dashbtn{
+  color:#ffff;
+  background-color: #021326
+}
+
+#option{
+  display: table-cell;
+  vertical-align: middle;
+  width: 25em;
+  z-index: 100;
+}
+
+#dashboard{
+  display: table;
+  width: 60%;
+  background-color: aliceblue;
+  position: fixed;
+  text-align: center;
+  top: 3em;
+  left: 20%;
+  height: 3em;
+  margin: 0 auto;
+}
+
+/*      INFO.HTML       */
+
+#infocontainer{
+  border-color: #021326;
+  border-style: dashed;
+}
+
+#fotoyo{
+  width: 90%;
+  height: 50%;
+}
