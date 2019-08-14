@@ -41,10 +41,13 @@ for(let i = 0; i<items.length; i++){
 }
 
 function enlarge(element){
-  element.style.margin = "5px"; 
+  element.style.margin = "0px";
+  element.style.padding = "30px"; 
 
 }
 
 function shrink(element){
   element.style.margin = "1px";
+  element.style.padding = "10px"; 
+
 }
