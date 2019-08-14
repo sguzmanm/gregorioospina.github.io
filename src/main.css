@@ -10,10 +10,6 @@
   background-size: cover; 
 }
 
-.container-fluid{
-}
-
-
 
 #buttonnav{
   position: fixed;
@@ -21,6 +17,7 @@
   display: block;
   left: 35%;
   margin: 0 auto;
+  z-index: 999;
 }
 
 .btn-circle {
@@ -85,12 +82,17 @@
   margin: 5px;
   text-align: center;
   background: rgb(11, 217, 125);
-  border-radius: 5px 5px 5px 5px;;
+  border-radius: 5px 5px 5px 5px;
 }
 
 #fotoyo{
-  width: 90%;
+  width: 95%;
   height: 45%;
+}
+
+.titulon{
+  color: black;
+  font-size: 120%;
 }
 
 .fotoref{
@@ -103,6 +105,16 @@
 .list-group{
   font-size: 80%;
   margin-bottom: 3em;
+}
+
+.list-group-item{
+  margin:1px;
+  border-radius: 1pt 1pt 1pt 1pt;
+}
+
+.list-group-item:hover{
+  background-color: rgb(50, 209, 138);
+  border-color: #1abc9c;
 }
 
 .fotolista{
@@ -236,4 +248,5 @@
 
 .center-list{
   bottom: 10em;
+  
 }
