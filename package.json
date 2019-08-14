@@ -1,0 +1,23 @@
+{
+  "name": "PersonalPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregorioospina/MyPage.git"
+  },
+  "keywords": [],
+  "author": "Gregorio Ospina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregorioospina/MyPage/issues"
+  },
+  "homepage": "https://github.com/gregorioospina/MyPage#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}

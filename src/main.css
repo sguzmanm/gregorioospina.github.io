@@ -2,27 +2,29 @@
   height: 15px;
 }
 
-.container-fluid{
-  background-color: #021326;
+.bodyindex {
+  background-image: url("../img/gris.jpg");
+  background-color: #cccccc;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
-.fotomain{
-  display: block;
-  margin: 0 auto;
-  height: 55%;
-  width: 75%;
+.container-fluid{
 }
+
+
 
 #buttonnav{
   position: fixed;
-  bottom: 3em;
+  bottom: 0px;
   display: block;
-  left: 40%;
+  left: 35%;
   margin: 0 auto;
 }
 
 .btn-circle {
-  width: 30px;
+  width: 80px;
   height: 30px;
   padding: 6px 0px;
   border-radius: 15px;
@@ -62,14 +64,174 @@
   margin: 0 auto;
 }
 
+.btn-circle-yellow{
+  border-color: yellow;
+  color: white; 
+}
+
+
+.btn-circle-green{
+  border-color: #1abc9c;
+  color: white; 
+}
 /*      INFO.HTML       */
 
 #infocontainer{
-  border-color: #021326;
-  border-style: dashed;
+  margin-top: 2em; 
+}
+
+.header {
+  padding: 1px;
+  margin: 5px;
+  text-align: center;
+  background: #1abc9c;
+  border-radius: 5px 5px 5px 5px;;
 }
 
 #fotoyo{
   width: 90%;
-  height: 50%;
+  height: 45%;
+}
+
+.fotoref{
+  border-radius: 50%;
+  height: 9em;
+  width: 9em;
+  padding: 9%;
+}
+
+.list-group{
+  font-size: 80%;
+  margin-bottom: 3em;
+}
+
+.fotolista{
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+}
+
+.media-list{
+  font-size: 80%;;
+}
+
+.media-body{
+  background-color:rgba(110,212,185,.75);
+  padding: 4px;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
+}
+
+#guyname{
+  font-weight: bold;
+}
+
+
+.media-body2{
+  background-color:rgba(162,222,206,.75);
+}
+
+.titulo{
+  color: white;
+  font-size: 150%;
+
+}
+
+/*       HOME       */
+
+.bodyhome{
+  background-image: url("../img/casa.jpg");
+  background-color: #cccccc;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.fotomain{
+  display: block;
+  margin: 0 auto;
+  height: 55%;
+  width: 75%;
+  margin-top: 5em;
+}
+
+.containerhome.container {
+  position: relative;
+  text-align: center;
+}
+
+.cornertext {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.r-cornertext {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-20deg);
+}
+
+.r-cornertext2 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-20deg);
+  z-index: 900;
+}
+
+.bluetext{
+  color: rgb(0, 184, 240);
+  font-size: 6em;
+  font-family: 'Permanent Marker', cursive
+}
+
+.greentext{
+  color: rgb(17, 247, 144);
+  font-size: 6em;
+  font-family: 'Permanent Marker', cursive
+}
+
+.yellowtext{
+  color: yellow;
+  font-size: 5em;
+  font-family: 'Permanent Marker', cursive
+}
+
+/*      CAREER     */
+
+.bodycareer {
+  background-image: url("../img/arbol.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
+}
+
+.outer{
+  position: relative; 
+  top: 20em;
+}
+
+.itemcareer{
+  height: 100px;
+}
+
+.fotocareer{
+  border-radius: 50%;
+  height: 14em;
+  width: 10em;
+}
+
+.inner{
+  margin: auto;
+  width: 400px;
+}
+
+.center-list{
+  bottom: 10em;
 }
