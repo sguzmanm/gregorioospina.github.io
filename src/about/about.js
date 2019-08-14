@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
 
-
+// Esta atento a un hover de mouse sobre los elementos de lista para hace run highliht sobre ellos.
 let items = document.getElementsByClassName("list-group-item");
 for (var i = 0; i < items.length; i++) {
   var element = items[i];

@@ -19,5 +19,8 @@
   "homepage": "https://github.com/gregorioospina/MyPage#readme",
   "devDependencies": {
     "eslint": "^6.1.0"
+  },
+  "dependencies": {
+    "scss": "^0.2.4"
   }
 }

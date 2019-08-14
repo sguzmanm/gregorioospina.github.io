@@ -2,6 +2,9 @@
 
 
 
+// Esta atento al evento de hacer hover sobre el item de career, en el omento que se elimina el atributo de 
+// 'hidden' del <p> y muestra la descripcion completa del item.
+
 let items = document.getElementsByClassName("careeritem");
 for(let i = 0; i<items.length; i++){
   let item = items[i];
