@@ -84,7 +84,7 @@
   padding: 1px;
   margin: 5px;
   text-align: center;
-  background: #1abc9c;
+  background: rgb(11, 217, 125);
   border-radius: 5px 5px 5px 5px;;
 }
 
@@ -116,7 +116,8 @@
 }
 
 .media-body{
-  background-color:rgba(110,212,185,.75);
+  background-color:rgba(11, 217, 125,.65);
+  margin: 1px;
   padding: 4px;
   border-radius: 5px 5px 5px 5px;
   color: black;
@@ -191,6 +192,7 @@
 }
 
 .greentext{
+  position: fixed;
   color: rgb(17, 247, 144);
   font-size: 6em;
   font-family: 'Permanent Marker', cursive
