@@ -2,6 +2,7 @@
 
 
 
+"use strict";
 // Esta atento al evento de hacer hover sobre el item de career, en el omento que se elimina el atributo de 
 // 'hidden' del <p> y muestra la descripcion completa del item.
 
