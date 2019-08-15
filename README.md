@@ -1,6 +1,6 @@
 # Welcome to my personal page!
 
-This page is meant to work as a portrait into my ==life==, my ==interests== , and ==professional career==. Feel free to browse around and if you're interested or want to contact me, dont hesitate to contact me through the various outlets displayed in the webpage.
+This page is meant to work as a portrait into my **life**, my **interests** , and **professional career**. Feel free to browse around and if you're interested or want to contact me, dont hesitate to contact me through the various outlets displayed in the webpage.
 
 #### How to get around the webpage's numerous (3) pages you ask?
 
@@ -10,6 +10,9 @@ This page is meant to work as a portrait into my ==life==, my ==interests== , an
 
 ​	Fortran. (And some basic bootstrapping skills.)
 
-**Gregorio Ospina.**
-Systems and Computing Engineering student
+**Gregorio Ospina.** <br>
+Systems and Computing Engineering student <br>
 @ Los Andes University, Colombia.
+
+
+<a href="https://gregorioospina.github.io/src/home/home.html"> Use this link to go to the page! </a>
