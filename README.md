@@ -10,6 +10,6 @@ This page is meant to work as a portrait into my **life**, my **interests** , an
 
 ​	Fortran. (And some basic bootstrapping skills.)
 
-**Gregorio Ospina.**
-Systems and Computing Engineering student
+**Gregorio Ospina.** <br>
+Systems and Computing Engineering student <br>
 @ Los Andes University, Colombia.
