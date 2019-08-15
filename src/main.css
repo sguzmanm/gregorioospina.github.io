@@ -277,7 +277,13 @@
   [class*="bodyhome"]{background-repeat: repeat-y;}
   [class*="bodycareer"]{background-repeat: repeat-y;}
 
-  [class*="bluetext"]{font-size: 3em;}
+  [class*="bluetext"]{font-size: 4em;}
+  [class*="yellowtext"]{
+    font-size: 2.6em;
+    left: 35%;
+    top: 0pt;
+  }
+  [class*="greentext"]{font-size: 3em;} 
 
   [class*="inner"]{width:auto;}
 
