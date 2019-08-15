@@ -281,7 +281,7 @@
   [class*="yellowtext"]{
     font-size: 2.6em;
     left: 35%;
-    top: 0pt;
+    top: 1em;
   }
   [class*="greentext"]{font-size: 3em;} 
 
