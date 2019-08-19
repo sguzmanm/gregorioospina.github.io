@@ -272,7 +272,7 @@
 }
 
 @media only screen and (max-width: 400px){
-
+  /*sguzmanm: In my opinion, it is not great to have a background-repeat on mobile*/
   [class*="bodyindex"]{background-repeat: repeat-y;}
   [class*="bodyhome"]{background-repeat: repeat-y;}
   [class*="bodycareer"]{background-repeat: repeat-y;}
@@ -309,6 +309,7 @@
   [class*="greentext"]{font-size: 3em;}  
   [class*="bluetext"]{font-size: 5em;}
 
+   /*sguzmanm: In my opinion, it is not great to have a background-repeat on mobile*/
   [class*="bodyindex"]{background-repeat: repeat-y;}
   [class*="bodyhome"]{background-repeat: repeat-y;}
   [class*="bodycareer"]{background-repeat: repeat-y;}
