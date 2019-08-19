@@ -15,38 +15,39 @@ for(let i = 0; i<items.length; i++){
   item.addEventListener("mouseenter", event =>{
     let pull = event.target.childNodes;
     // sguzmanm: Factor this loop
-    for(let i=0; i<pull.length; i++){
-      let elemi = pull[i];
-      if(elemi.className === "pull-left"){
-        let pulln = elemi.childNodes;
-        for(let j=0; j<pulln.length; j++){
-          let elem = pulln[j];
-          if(elem.className === "p-item"){
-            elem.removeAttribute("hidden");
-            enlarge(event.target);
-          }
-        }
-      }
-    }
+    setupHover(pull,true);
   });
   item.addEventListener("mouseleave", event =>{
     let pull = event.target.childNodes;
     // sguzmanm: Factor this loop; you could create a function that is used for this case and the loop above since they are almost the same
-    for(let i=0; i<pull.length; i++){
+    setupHover(pull,false);
+  });
+}
+
+//sguzmanm: THis would be the new function I talked to you about, if you wanted you could factor out the inner loops too
+function setupHover(pull,isRemoved)
+{
+  for(let i=0; i<pull.length; i++){
       let elemi = pull[i];
       if(elemi.className === "pull-left"){
         let pulln = elemi.childNodes;
         for(let j=0; j<pulln.length; j++){
           let elem = pulln[j];
           if(elem.className === "p-item"){
-            
-            elem.setAttribute("hidden", "true");
-            shrink(event.target);
+            if(isRemoved)
+            {
+              elem.removeAttribute("hidden");
+              enlarge(event.target);
+            }
+            else
+            {
+              elem.setAttribute("hidden", "true");
+              shrink(event.target);
+            }
           }
         }
       }
     }
-  });
 }
 
 function enlarge(element){
