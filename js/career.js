@@ -15,17 +15,17 @@ for(let i = 0; i<items.length; i++){
   item.addEventListener("mouseenter", event =>{
     let pull = event.target.childNodes;
     // sguzmanm: Factor this loop
-    setupHover(pull,true);
+    setupHover(pull,event.target,true);
   });
   item.addEventListener("mouseleave", event =>{
     let pull = event.target.childNodes;
     // sguzmanm: Factor this loop; you could create a function that is used for this case and the loop above since they are almost the same
-    setupHover(pull,false);
+    setupHover(pull,event.target,false);
   });
 }
 
 //sguzmanm: THis would be the new function I talked to you about, if you wanted you could factor out the inner loops too
-function setupHover(pull,isRemoved)
+function setupHover(pull,eventTarget,isRemoved)
 {
   for(let i=0; i<pull.length; i++){
       let elemi = pull[i];
@@ -37,12 +37,12 @@ function setupHover(pull,isRemoved)
             if(isRemoved)
             {
               elem.removeAttribute("hidden");
-              enlarge(event.target);
+              enlarge(eventTarget);
             }
             else
             {
               elem.setAttribute("hidden", "true");
-              shrink(event.target);
+              shrink(eventTarget);
             }
           }
         }
