@@ -49,7 +49,7 @@ function setupHover(pull,eventTarget,isRemoved)
       }
     }
 }
-
+// sguzmanm: On mobile, the background image is enlarged as well, leading to bad UX
 function enlarge(element){
   element.style.margin = "0px";
   element.style.padding = "30px"; 
